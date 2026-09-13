@@ -1,157 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Vishv Book Publication</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Lancing</title>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Oxanium',sans-serif;min-height:100vh;background:radial-gradient(circle at 15% 10%,#173b72 0%,#07111f 42%,#02050b 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow-x:hidden;padding:24px 12px;color:#fff}
+body:before{content:"";position:fixed;inset:0;background:radial-gradient(circle at top,rgba(0,198,255,.16),transparent 42%),linear-gradient(135deg,rgba(0,0,0,.15),rgba(0,0,0,.72));pointer-events:none}
+.card{position:relative;z-index:2;backdrop-filter:blur(18px);background:rgba(255,255,255,.075);border:1px solid rgba(255,215,0,.34);border-radius:26px;padding:34px 30px;max-width:440px;width:100%;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,.72);animation:fadeUp .8s ease both}
+.logo{width:180px;height:180px;object-fit:contain;border-radius:50%;border:3px solid #ffd700;margin-bottom:20px;box-shadow:0 0 35px rgba(255,215,0,.42);animation:float 3s ease-in-out infinite;background:#fff}
+h1{font-size:25px;color:#ffd700;margin-bottom:8px;letter-spacing:1px}h2{font-size:18px;margin-bottom:15px;line-height:1.4}.sub{font-size:14px;opacity:.9;margin-bottom:28px;line-height:1.6}
+.btn{display:inline-block;padding:17px 30px;border-radius:18px;background:linear-gradient(135deg,#00c6ff,#005bbb);color:#fff;font-weight:700;text-decoration:none;font-size:15px;transition:.35s ease;box-shadow:0 15px 40px rgba(0,176,255,.42);position:relative;overflow:hidden}.btn:before{content:"";position:absolute;top:0;left:-120%;width:120%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.4),transparent);transition:.6s}.btn:hover:before{left:120%}.btn:hover{transform:translateY(-4px);box-shadow:0 25px 60px rgba(0,176,255,.75)}
+.badge{margin:25px 0;background:linear-gradient(135deg,#fff,#f3f3f3);color:#d60000;font-weight:700;padding:9px 16px;border-radius:8px;display:inline-block;font-size:13px;box-shadow:0 5px 20px rgba(0,0,0,.4)}.points{list-style:none;margin:20px 0;font-size:14px;font-family:'Poppins',sans-serif;line-height:1.7}.points li{margin:9px 0}.ads-tag{margin-top:18px;font-size:13px;padding:8px 14px;border-radius:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);font-family:'Poppins',sans-serif}.ads-tag a{color:#00c6ff;font-weight:700;text-decoration:none}.risk{font-size:12px;opacity:.75;margin-top:10px}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes fadeUp{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:480px){body{padding:14px 10px;align-items:flex-start}.card{margin-top:10px;padding:28px 18px;border-radius:22px}.logo{width:145px;height:145px}h1{font-size:21px}h2{font-size:16px}.sub{font-size:13px}.btn{width:100%;padding:15px 18px;font-size:14px}.points{font-size:13px}.badge{font-size:12px;line-height:1.5}}
+</style>
 </head>
 <body>
-<header class="site-header">
-  <div class="nav-wrap">
-    <a class="brand" href="#top">
-      <img class="brand-logo" src="logo.png" alt="Vishv Book Publication logo">
-      <span>Vishv Book <b>Publication</b></span>
-    </a>
-    <nav class="desktop-nav">
-      <a href="#how">How it works</a>
-      <a href="#plans">Plans</a>
-      <a href="#stories">Stories</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-<section class="hero reveal-section">
-  <div class="hero-inner">
-    <div class="hero-left">
-      <div class="live-chip">⚡&nbsp; India's #1 Work-from-Home Writing Program <span>● LIVE</span></div>
-      <h1>Earn ₹22,000–<mark>₹45,000</mark><br>Writing from Home</h1>
-      <p class="hero-text">No office. No experience required. Join 15,000+ Indians earning weekly by handwriting books from the comfort of their home. Get paid in 24 hours.</p>
-      <div class="hero-buttons">
-        <a class="primary-btn" href="https://wa.me/919376128114?text=Hello%2C%20I%20am%20interested%20in%20your%20writing%20project.%20Please%20share%20the%20details." target="_blank">➤ <span>Chat on WhatsApp</span> →</a>
-        <a class="secondary-btn" href="#how">See how it works&nbsp; →</a>
-      </div>
-      <div class="hero-trust">
-        <span>♧ &nbsp;No Credit Card</span>
-        <span>◉ &nbsp;100% Refundable</span>
-        <span class="gold">ϟ &nbsp;Paid in 24 Hours</span>
-      </div>
-      <div class="joined">
-        <div class="avatar-stack"><i>PS</i><i>RV</i><i>SD</i><i>AK</i></div>
-        <strong>15,000+</strong> writers joined this month
-      </div>
-    </div>
-    <div class="hero-right">
-      <div class="hero-image-card">
-        <img src="hero-image.png" alt="Woman writing from home">
-        <span class="paid-badge">₹2.5 Cr+ paid</span>
-        <div class="payment-pop"><b>ϟ</b><span>Just now<strong>Paid ₹30,000 to Priya</strong></span></div>
-        <div class="review-pop"><b>★</b><span><strong>4.8 / 5</strong><small>12,400 reviews</small></span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="stats reveal-section">
-  <div><strong>15,000+</strong><span>Active Members</span></div>
-  <div><strong>₹2.5 Cr+</strong><span>Total Paid Out</span></div>
-  <div><strong>4.8★</strong><span>Average Rating</span></div>
-  <div><strong>24 hrs</strong><span>Payment Speed</span></div>
-</section>
-
-<div class="ticker" aria-label="Trust highlights">
-  <div class="ticker-track">
-    <span>✓ Trusted in 19,000+ pincodes</span>
-    <span>🚚 BlueDart Verified</span>
-    <span>📦 Delhivery Partner</span>
-    <span>💳 UPI Verified Payouts</span>
-    <span>🔒 Secure &amp; Refundable</span>
-    <span>⭐ 4.8 / 5 by 12,400 members</span>
-    <span>🇮🇳 Made in India</span>
-    <span>✓ Trusted in 19,000+ pincodes</span>
-    <span>🚚 BlueDart Verified</span>
-    <span>📦 Delhivery Partner</span>
-    <span>💳 UPI Verified Payouts</span>
-    <span>🔒 Secure &amp; Refundable</span>
-    <span>⭐ 4.8 / 5 by 12,400 members</span>
-    <span>🇮🇳 Made in India</span>
-  </div>
+<div class="card">
+<img src="logo.png" class="logo" alt="Vishv Book Publication logo">
+<h1>HAND WORK HOME JOB</h1>
+<h2>🔥 Genuine Freelancing Work From Home Job 🔥</h2>
+<p class="sub">DAILY • WEEKLY • MONTHLY SALERY</p>
+<a href="https://wa.me/919376128114?text=Hello%2C%20I%20am%20interested%20in%20your%20work%20from%20home%20project.%20Please%20share%20the%20details." class="btn">🚀 Join Free WhatsApp</a>
+<div class="badge">🇮🇳 India’s Trusted Project Work Channel</div>
+<ul class="points">
+<li>✔ Earn ₹25,000 – ₹35,000 per project</li>
+<li>✔ No Experience Required • Females Only</li>
+<li>✔ 🔥 Limited Slots Available • Apply Now on WhatsApp</li>
+<li>✔ ⭐ 1000+ people already working from home</li>
+<li>Woman doing handwriting work from home</li>
+</ul>
 </div>
-<section id="how" class="section how reveal-section">
-  <div class="section-head"><span class="section-tag">HOW IT WORKS</span><h2>Start earning in 3 simple steps</h2><p>From joining to your first payout — the whole process is designed for beginners.</p></div>
-  <div class="three-grid">
-    <article class="step-card reveal-card"><small>STEP 01</small><h3>Chat on WhatsApp</h3><p>Click the WhatsApp button below, send us a message, and our team will guide you through the next steps. It's quick and completely free.</p><label>Takes 30 seconds</label></article>
-    <article class="step-card reveal-card"><small>STEP 02</small><h3>Register &amp; Receive Material</h3><p>Pick a project plan, complete a small refundable registration, and we courier the writing material to your home.</p><label>Free home delivery</label></article>
-    <article class="step-card reveal-card"><small>STEP 03</small><h3>Submit &amp; Get Paid</h3><p>Handwrite the pages at your own pace, ship them back, and receive your full payment within 24 hours.</p><label>Paid in 24 hours</label></article>
-  </div>
-</section>
-
-<section id="plans" class="section plans reveal-section">
-  <div class="section-head"><span class="section-tag">PROJECT PLANS</span><h2>Choose your earning level</h2><p>Pick a plan that matches your time and earning goal. Upgrade anytime.</p></div>
-  <div class="three-grid plan-grid">
-    <article class="plan-card reveal-card"><h3>Starter Plan</h3><div class="price">₹22,000 <small>payout</small></div><p>200 pages · 30 days to complete</p><ul><li>Beginner friendly</li><li>Free home delivery</li><li>24 hr payout</li><li>Refundable registration</li></ul><a class="plan-btn" href="https://wa.me/919376128114?text=Hello%2C%20I%20am%20interested%20in%20your%20writing%20project.%20Please%20share%20the%20details." target="_blank">Select Plan　→</a></article>
-    <article class="plan-card popular"><span class="popular-label">MOST POPULAR</span><h3>Standard Plan</h3><div class="price">₹30,000 <small>payout</small></div><p>300 pages · 45 days to complete</p><ul><li>Most chosen plan</li><li>Priority shipping</li><li>24 hr payout</li><li>Dedicated support agent</li><li>Bonus ₹2,000 on completion</li></ul><a class="plan-btn filled" href="https://wa.me/919376128114?text=Hello%2C%20I%20am%20interested%20in%20your%20writing%20project.%20Please%20share%20the%20details." target="_blank">Select Plan　→</a></article>
-    <article class="plan-card reveal-card"><h3>Premium Plan</h3><div class="price">₹45,000 <small>payout</small></div><p>450 pages · 60 days to complete</p><ul><li>Highest payout</li><li>Priority shipping</li><li>24 hr payout</li><li>1-on-1 mentor</li><li>Bonus ₹5,000 on completion</li></ul><a class="plan-btn" href="https://wa.me/919376128114?text=Hello%2C%20I%20am%20interested%20in%20your%20writing%20project.%20Please%20share%20the%20details." target="_blank">Select Plan　→</a></article>
-  </div>
-  <p class="plan-foot">🔒 100% refundable registration · 🚚 Free home delivery across India · 💳 Direct UPI / bank transfer</p>
-</section>
-
-<section class="section why">
-  <div class="section-head"><span class="section-tag">WHY CHOOSE US</span><h2>Built for real Indian families</h2><p>Everything you need to start earning from day one — backed by a real team that cares.</p></div>
-  <div class="why-grid">
-    <article><h3>Work From Anywhere</h3><p>Any city, any village. All you need is a pen and paper.</p><b>01</b></article>
-    <article><h3>Guaranteed Salary</h3><p>Submit your work and receive guaranteed payout in 24 hours.</p><b>02</b></article>
-    <article><h3>Flexible Timing</h3><p>Write at your own pace — mornings, nights, weekends. Your choice.</p><b>03</b></article>
-    <article><h3>Secure Payments</h3><p>100% refundable registration. Direct UPI / bank transfer.</p><b>04</b></article>
-    <article><h3>24/7 Support</h3><p>Dedicated team to guide you on WhatsApp, WhatsApp &amp; calls.</p><b>05</b></article>
-    <article><h3>Trusted by 15,000+</h3><p>India's most reviewed work-from-home writing program since 2019.</p><b>06</b></article>
-  </div>
-</section>
-
-<section id="stories" class="section stories reveal-section">
-  <div class="section-head"><span class="section-tag">MEMBER STORIES</span><h2>Real people, real payouts</h2><p>4.8 from 12,400 verified members</p></div>
-  <div class="three-grid story-grid">
-    <article class="story-card reveal-card"><div class="stars">★★★★★</div><p>"I was a homemaker with no income source. In my very first month with AB Book Publications, I earned ₹30,000. The team guided me at every step."</p><hr><div class="person"><b>PS</b><span><strong>Priya Sharma</strong><small>Jaipur, Rajasthan</small></span><em>Earned<br><strong>₹30,000</strong></em></div></article>
-    <article class="story-card reveal-card"><div class="stars">★★★★★</div><p>"I'm a college student. I completed the Premium Plan in 45 days and earned ₹45,000 + ₹5,000 bonus. Payment came in 22 hours!"</p><hr><div class="person"><b>RV</b><span><strong>Rahul Verma</strong><small>Lucknow, UP</small></span><em>Earned<br><strong>₹45,000</strong></em></div></article>
-    <article class="story-card reveal-card"><div class="stars">★★★★★</div><p>"No interview, no exam. They sent the books home, I wrote, sent them back, and money came in my bank account. Simple and trustworthy."</p><hr><div class="person"><b>SD</b><span><strong>Sunita Devi</strong><small>Patna, Bihar</small></span><em>Earned<br><strong>₹22,000</strong></em></div></article>
-  </div>
-</section>
-
-<section id="faq" class="section faq reveal-section">
-  <div class="section-head"><span class="section-tag">FAQ</span><h2>Got questions?</h2></div>
-  <div class="faq-list">
-    <details><summary>Do I need any experience or qualification?</summary><p>No. If you can write neatly in Hindi or English, you can join. There is no interview, exam or degree requirement.</p></details>
-    <details><summary>Is the registration fee really refundable?</summary><p>Yes. The small registration amount is fully refunded along with your payout once you submit the completed work.</p></details>
-    <details><summary>How will I receive my payment?</summary><p>Directly to your bank account or UPI ID within 24 hours of your submitted pages being verified.</p></details>
-    <details><summary>How will the writing material reach me?</summary><p>We courier the books and paper to your home for free through BlueDart or Delhivery, anywhere in India.</p></details>
-    <details><summary>Can I work from a small town or village?</summary><p>Absolutely. We already deliver to 19,000+ pincodes including small towns and villages across India.</p></details>
-  </div>
-</section>
-
-<section class="final-cta">
-  <div class="section-tag dark-tag">Limited slots open this week</div>
-  <h2>Ready to earn this week?</h2>
-  <p>Join 15,000+ Indians already earning from home. Click below, join our WhatsApp and start your first project today.</p>
-  <a class="final-btn" href="https://wa.me/919376128114?text=Hello%2C%20I%20am%20interested%20in%20your%20writing%20project.%20Please%20share%20the%20details." target="_blank">➤ &nbsp; Chat on WhatsApp</a>
-  <small>⚡ Instant access · No signup form · Free forever</small>
-</section>
-</main>
-
-<footer>
-  <div class="footer-inner"><strong>Vishv <span>Books</span></strong><div>No Credit Card　 100% Refundable　 Paid in 24 Hours</div></div>
-  <p>Earnings depend on the plan you choose and the pages you complete on time. Registration is fully refundable with your payout.</p>
-</footer>
-<script src="script.js"></script>
-
-<a class="whatsapp-float" href="https://wa.me/919376128114?text=Hello%2C%20I%20am%20interested%20in%20your%20writing%20project.%20Please%20share%20the%20details." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
-  <span class="wa-icon">☏</span>
-  <span class="wa-label">Chat on WhatsApp</span>
-</a>
-
 </body>
 </html>
